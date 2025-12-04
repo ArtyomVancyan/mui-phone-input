@@ -203,7 +203,7 @@ const Demo = () => {
                                      alt="Icon"/>
                             </MuiIconButton>
                         </a>
-                        <a href="//github.com/typesnippet/mui-phone-input/tree/master/examples/material"
+                        <a href="//github.com/typesnippet/mui-phone-input"
                            target="_blank" rel="noreferrer" style={{textDecoration: "none"}}>
                             <MuiIconButton mode={mode}>
                                 <GitHubIcon fontSize="small"/>
@@ -347,6 +347,7 @@ const Demo = () => {
                                     </TableCell>
                                     <TableCell align="right">
                                         <MuiSelect
+                                            disabled={!search}
                                             value={searchVariant}
                                             options={[
                                                 {name: "Filled", key: "filled"},
@@ -448,7 +449,7 @@ const Demo = () => {
                         border: `1px solid ${mode === "dark" ? "rgba(255, 255, 255, 0.14)" : "rgba(0, 0, 0, 0.14)"}`
                     }}>
                         If your application uses one of <b>@material-ui/core</b>, <b>@mui/base</b> or <b>@mui/joy</b>
-                        &nbsp;distributions of <b>Material UI</b>, you should checkout the&nbsp;
+                        &nbsp;distributions of <b>Material UI</b>, you should check out the&nbsp;
                         <a target="_blank" rel="noreferrer" style={{textDecoration: "none"}}
                            href="//github.com/typesnippet/mui-phone-input/tree/master/examples">examples</a> to test the
                         components out.
