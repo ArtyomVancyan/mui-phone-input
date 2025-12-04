@@ -14,7 +14,7 @@ jobs:
     strategy:
       matrix:
         node-version: [ 16.x, 18.14.2, 20.x ]
-        environment: [ jest, joy_build, base_build, core_build, material_build ]
+        environment: [ jest5, jest6, jest7, joy_build, base_build, core_build, mui5_build, mui6_build, mui7_build ]
 
     steps:
       - name: Checkout
